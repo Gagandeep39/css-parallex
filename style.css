@@ -77,6 +77,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* Hides Explore btn on scroll */
+  overflow: hidden;
 }
 
 section img {
@@ -125,7 +127,6 @@ section img#mountains_front {
   padding: 100px;
   background: #1c0522;
   color: #fff;
-  z-index: 12;
 }
 
 .sec h2 {
