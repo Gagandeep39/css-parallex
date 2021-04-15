@@ -103,6 +103,9 @@ section img#mountains_front {
   white-space: nowrap;
   font-size: 7.5vw;
   z-index: 10;
+
+  /* Moves to left usng JS */
+  right: -350px;
 }
 
 .btn {
@@ -122,6 +125,7 @@ section img#mountains_front {
   padding: 100px;
   background: #1c0522;
   color: #fff;
+  z-index: 12;
 }
 
 .sec h2 {
